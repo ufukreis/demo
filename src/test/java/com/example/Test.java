@@ -11,6 +11,7 @@ public class Test {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
+        driver.navigate().to("https://www.trabzonspor.org.tr/tr");
         Thread.sleep(1000);
         driver.close();
      }
